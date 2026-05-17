@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.11"
-  version: "2026.5.2"
+  version: "2026.5.3"
 
 package:
   name: jax-galsim
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jax-galsim/jax_galsim-${{ version }}.tar.gz
-  sha256: 00dd594665c66595bc2f224b2f0d0d4d071651cea3c13fcc59f36553d1e1c5e3
+  sha256: a6b2537a84c76280cf920d2215f3aae4520744baec3b8bf2c07b52f29239a69a
 
 build:
   number: 0
