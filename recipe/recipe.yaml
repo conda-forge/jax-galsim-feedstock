@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.11"
-  version: "2026.5.3"
+  version: "2026.6.1"
 
 package:
   name: jax-galsim
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/j/jax-galsim/jax_galsim-${{ version }}.tar.gz
-  sha256: a6b2537a84c76280cf920d2215f3aae4520744baec3b8bf2c07b52f29239a69a
+  sha256: 3348df7263b38a50195336a49f40f4e0d0a641ccdcab4f804d85ec7f0b4b3fb1
 
 build:
   number: 0
@@ -30,6 +30,7 @@ requirements:
     - jax >=0.6.0
     - astropy-base >=2.0
     - quadax
+    - equinox
 
 tests:
   - python:
