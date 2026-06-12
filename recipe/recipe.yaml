@@ -30,6 +30,7 @@ requirements:
     - jax >=0.6.0
     - astropy-base >=2.0
     - quadax
+    - equinox
 
 tests:
   - python:
