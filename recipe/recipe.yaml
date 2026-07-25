@@ -13,7 +13,7 @@ source:
   sha256: 38491b94a6482314ee94cdd88d73a03461193656c346b1cbc1ca496f18990a0b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -30,7 +30,7 @@ requirements:
     - jax >=0.6.0
     - quadax
     - equinox
-    - astropy >=2.0
+    - astropy-base >=2.0
 tests:
   - python:
       imports:
